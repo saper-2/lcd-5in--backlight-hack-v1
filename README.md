@@ -13,7 +13,7 @@ I'm going to focus on the 1st way, because I don't have a switch on my LCD and I
 Reverse engeenering circuit :) , fortunatly chip that power-up LEDs is marked well, and it was easy to find by google "4103 sot23-6" (sot23-6 - this is name of this chip chassis). Just fast look at datasheet while looking at pcb and - yes, this is this one :) . 
 PT4103 have EN input, that driven low will disable chip functions, and driving EN high (more that 1,5V) will enable the chip operation.
 
-![DC-DC converter](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-dcdc.jpg)
+![DC-DC converter](lcd5in-hdmi-dcdc.jpg?raw=true)
 
 ## Step 2
 EN input is connected to 5V rail from power socket (microusb). That's mean chip is constantly enabled, I'm also lucky because there is already pull-up resistor 10k (R26 in my pcb version). So just solder a thin wire (for reference this one is called on aliexpress "wrapping wire" :smile: ) to the 10k resistor from EN pin side, power up LCD module and touch with wire to usb socket chassis (chassis is connected to GND/0V), backlight shoud turn off - if not then (in worst case) there would be a spark and wire may burn out (and backlight might also never turn on again :wink:)... But I'm confident of my knowledge and expirence :smile:
