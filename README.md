@@ -20,22 +20,22 @@ EN input is connected to 5V rail from power socket (microusb). That's mean chip 
 
 This is how the circuit is made on my LCD board (blue wires). The <font color="green">green part</font> is what I added. I used RK7002 N-MOSFET transistor with Vgs(th)=1,5V , and resistor have around 51kOhms - I had this one value in 0603 chassis, can be anything between 33k..47k..75k . :smile: .
 
-![Schematic](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-bl-hack-sch.jpg)
+![Schematic](lcd5in-hdmi-bl-hack-sch.jpg?raw=true)
 
 I have cutted a small area on pcb from GND fill ,and used this to solder wire to GPIO, gate of transistor and resistor.
 
 Some photos:
-![Thin wire solder](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-1.jpg)
-![Tools and cutted some space from pcb for transistor](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-2.jpg)
-![Cut place for gate, R and GPIO wire](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-3.jpg)
-![Soldered 1](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-4.jpg)
-![Soldered 2](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-5.jpg)
-![Soldered 3](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-6.jpg)
+![Thin wire solder](lcd5in-hdmi-1.jpg?raw=true)
+![Tools and cutted some space from pcb for transistor](lcd5in-hdmi-2.jpg?raw=true)
+![Cut place for gate, R and GPIO wire](lcd5in-hdmi-3.jpg?raw=true)
+![Soldered 1](lcd5in-hdmi-4.jpg?raw=true)
+![Soldered 2](lcd5in-hdmi-5.jpg?raw=true)
+![Soldered 3](lcd5in-hdmi-6.jpg?raw=true)
 
 ## Step 3 - Final
 
 Final look:
-![Soldered 3](http://github.com/saper-2/lcd-5in--backlight-hack-v1/raw/master/lcd5in-hdmi-final.jpg)
+![Soldered 3](lcd5in-hdmi-final.jpg?raw=true)
 
 Movie on Youtube with testing how EN behaves: https://www.youtube.com/watch?v=TtfMw2QhIUY
 
